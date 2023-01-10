@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
-/* body */
+
+
 body{
     margin: 0;
     font-family: 'Manrope', sans-serif;
@@ -25,23 +26,22 @@ header{
     left: 0;
     right: 0;
     z-index: 1000;
-    background-color: #2dda3c;
+    background-color: #2dda3c;;
 }
 
 .headerInner{
     display: flex;
     justify-content: space-between;
 }
-
-.logo{
-    width: 170px;
-    height: 170px;
-    padding-left: 10%;
-    transition: transform 0.7s;
+.logo_mp{
+    width: 128px;
+    height: 128px;
+    margin-top: 15%;
+    margin-left: 70%;
+    transition: transform 0.2s;
 }
-
-.logo:hover{
-    transform: scale(1.3);
+.logo_mp:hover{
+    transform: scale(1.5);
 }
 
 .nav_one{
@@ -67,6 +67,18 @@ header{
     height: 315vh;
     background-color: black;
     padding-top: 40vh;
+    background-image: url(images/mine_shader_icn.jpg);
+}
+
+.themeButton{
+    background-color: #049ee6;
+    border: none;
+    width: 100px;
+    height: 45px;
+    margin-top: 45px;
+}
+.themeButton:hover{
+    background-color: #117bac;
 }
 
 .mp_nine{
@@ -80,13 +92,18 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
+.serv_sP{
+    margin-left: 17%;
+}
+
 .buton_ip{
-    width: 250px;
+    width: 280px;
     height: 50px;
     font-size: 30px;
     font-family: 'Nunito Sans', sans-serif;
     background-color: #049ee6;
     border-color: #464646;
+    border: none;
     transition: 0.5s;
 }
 
@@ -137,11 +154,12 @@ header{
 
 .ipBut_s{
     font-family: 'Nunito Sans', sans-serif;
-    width: 150px;
+    width: 180px;
     height: 40px;
     font-size: 20px;
     background-color: #2dda3c;
     border-color: #464646;
+    border: none;
     transition: 0.5s;
 }
 
@@ -212,5 +230,504 @@ footer{
 }
 
 .cntsBW{
+    padding-left: 1780%;
+}
+
+
+
+
+
+
+
+    /*светлая тема*/
+
+
+
+
+
+
+
+.lightTheme {
+    background-color: #fff;
+    color: #000;
+}
+
+    /* body */    
+.lightTheme body{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    padding: 0 0 0 0px;
+}
+
+.lightTheme .themeButton{
+    background-color: #049ee6;
+    border: none;
+    width: 100px;
+    height: 45px;
+    margin-top: 45px;
+}
+.themeButton:hover{
+    background-color: #117bac;
+}
+
+.lightTheme .container{
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+/* header */
+
+.lightTheme header{
+    width: 100%;
+    height: 23%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #2dda3c;
+}
+
+.lightTheme .headerInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightTheme .logo{
+    width: 140px;
+    height: 140px;
+    padding-left: 7%;
+    transition: transform 0.2s;
+}
+
+.lightTheme .logo:hover{
+    transform: scale(1.2);
+}
+
+.lightTheme .nav_one{
+    color: #22356F;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 55px;
+    transition: 0.5s;
+}
+.lightTheme .nav_one:hover{
+    color: #049ee6;
+}
+
+.lightTheme .info{
+    color: black;
+    font-size: 20px;
+}
+
+/* main */
+
+.lightTheme .main{
+    width: 100%;
+    height: 315vh;
+    background-color: black;
+    padding-top: 40vh;
+    background-image: url(images/mine_shader_icn.jpg);
+}
+
+.lightTheme .mp_nine{
+    font-size: 50px;
+}
+
+.lightTheme .firstScreen{
+    padding-left: 10%;
+}
+.lightTheme .firstH2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.serv_sP{
+    margin-left: 17%;
+}
+
+.lightTheme .buton_ip{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #049ee6;
+    border-color: #464646;
+    border: none;
+    transition: 0.5s;
+}
+
+.lightTheme .buton_ip:hover{
+    background-color: #2dda3c;
+}
+
+.lightTheme .txt_des_mpmp{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.lightTheme .txt_des{
+    padding-left: 15%;
+    font-family: 'Manrope', sans-serif;
+}
+
+.lightTheme .mp_one{
+    padding-left: 320px;
+}
+.lightTheme .mp_five{
+    padding-left: 13%;
+}
+.lightTheme .mp_three{
+    padding-left: 380px;
+}
+.lightTheme .mp_four{
+    padding-left: 360px;
+}
+
+.lightTheme .prohodLink{
+    padding-left: 29%;
+}
+
+.lightTheme .prohBut{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #2dda3c;
+    border-color: #464646;
+    transition: 0.5s;
+}
+
+.lightTheme .prohBut:hover{
+    background-color: #049ee6;
+}
+
+.lightTheme .ipBut_s{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #2dda3c;
+    border-color: #464646;
+    border: none;
+    transition: 0.5s;
+}
+
+.lightTheme .ipBut_s:hover{
+    background-color: #049ee6;
+}
+
+/* footer */
+.lightTheme footer{
+    width: 100%;
+    height: 20%;
+    background-color: #1d1b1b;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.lightTheme .footerLinks{
+    display: flex;
+}
+
+.lightTheme .footerCol{
+    width:calc( ( 100% - 40px ) / 3 );
+    margin: 30px 20px;
+    margin-bottom: 70px;
+    color: #ffffff;
+}
+
+.lightTheme .links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lightTheme .contacts{
+    padding-left: 1700%;
+    font-size: 30px;
+}
+
+.lightTheme .a_1{
+    text-decoration: none;
+    color: #2dda3c;
+    font-size: 25px;
+    padding-top: 55px;
+}
+
+.lightTheme .img_cts{
+    transition: 0.2s;
+}
+
+.lightTheme .img_cts:hover{
+    transform: scale(1.3);
+}
+
+.lightTheme .a_2{
+    margin-right: 5%;
+    padding-left: 500%;
+}
+
+.lightTheme .footerCopyright{
+    background-color: #2dda3c;
+}
+
+.lightTheme .copyright{
+    color: black;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.lightTheme .cntsBW{
+    padding-left: 1780%;
+}
+    
+
+
+
+
+
+
+        /*темная тема*/
+
+    
+
+
+
+
+
+
+.darkTheme {
+    background-color: #121212;
+    color: #fff;
+}
+
+    /* body */
+.darkTheme body{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    padding: 0 0 0 0px;
+}
+
+.darkTheme .container{
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+/* header */
+
+.darkTheme header{
+    width: 100%;
+    height: 23%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #061c58;
+}
+
+.darkTheme .headerInner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.darkTheme .logo{
+    width: 140px;
+    height: 140px;
+    padding-left: 10%;
+    transition: transform 0.2s;
+}
+
+.darkTheme .logo:hover{
+    transform: scale(1.2);
+}
+
+.darkTheme .nav_one{
+    color: #22356F;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 55px;
+    transition: 0.5s;
+}
+.darkTheme .nav_one:hover{
+    color: #049ee6;
+}
+
+.darkTheme .themeButton{
+    background-color: #413a39;
+    border: none;
+    width: 100px;
+    height: 45px;
+    margin-top: 45px;
+}
+.darkButton:hover{
+    background-color: #212222;
+}
+
+.darkTheme .info{
+    color: black;
+    font-size: 20px;
+}
+
+/* main */
+
+.darkTheme .main{
+    width: 100%;
+    height: 315vh;
+    background-color: black;
+    padding-top: 40vh;
+    background-image: url(images/mine_shader_icn.jpg);
+}
+
+.darkTheme .mp_nine{
+    font-size: 50px;
+}
+
+.darkTheme .firstScreen{
+    padding-left: 10%;
+}
+.darkTheme .firstH2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.darkTheme .serv_sP{
+    margin-left: 17%;
+}
+
+.darkTheme .buton_ip{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #049ee6;
+    border-color: #464646;
+    border: none;
+    transition: 0.5s;
+}
+
+.darkTheme .buton_ip:hover{
+    background-color: #2dda3c;
+}
+
+.darkTheme .txt_des_mpmp{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.darkTheme .txt_des{
+    padding-left: 15%;
+    font-family: 'Manrope', sans-serif;
+}
+
+.darkTheme .mp_one{
+    padding-left: 320px;
+}
+.darkTheme .mp_five{
+    padding-left: 13%;
+}
+.darkTheme .mp_three{
+    padding-left: 380px;
+}
+.darkTheme .mp_four{
+    padding-left: 360px;
+}
+
+.darkTheme .prohodLink{
+    padding-left: 29%;
+}
+
+.darkTheme .prohBut{
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #2dda3c;
+    border-color: #464646;
+    transition: 0.5s;
+}
+
+.darkTheme .prohBut:hover{
+    background-color: #049ee6;
+}
+
+.darkTheme .ipBut_s{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #2dda3c;
+    border-color: #464646;
+    border: none;
+    transition: 0.5s;
+}
+
+.darkTheme .ipBut_s:hover{
+    background-color: #049ee6;
+}
+
+/* footer */
+.darkTheme footer{
+    width: 100%;
+    height: 20%;
+    background-color: #1d1b1b;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.darkTheme .footerLinks{
+    display: flex;
+}
+
+.darkTheme.footerCol{
+    width:calc( ( 100% - 40px ) / 3 );
+    margin: 30px 20px;
+    margin-bottom: 70px;
+    color: #ffffff;
+}
+
+.darkTheme .links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.darkTheme .contacts{
+    padding-left: 1700%;
+    font-size: 30px;
+}
+
+.darkTheme .a_1{
+    text-decoration: none;
+    color: #2dda3c;
+    font-size: 25px;
+    padding-top: 55px;
+}
+
+.darkTheme .img_cts{
+    transition: 0.2s;
+}
+
+.darkTheme .img_cts:hover{
+    transform: scale(1.3);
+}
+
+.darkTheme .a_2{
+    margin-right: 5%;
+    padding-left: 500%;
+}
+
+.darkTheme .footerCopyright{
+    background-color: #2dda3c;
+}
+
+.darkTheme .copyright{
+    color: black;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.darkTheme .cntsBW{
     padding-left: 1780%;
 }
